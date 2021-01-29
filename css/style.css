@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+main {
+    min-height: 100vh;
+    background: linear-gradient(#8CBFFF, #9C97FF);
+}
