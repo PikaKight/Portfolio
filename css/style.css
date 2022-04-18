@@ -22,14 +22,13 @@ main{
     backdrop-filter: blur(5rem);
 }
 
-.circle1,.circle2{
-    background: white;
-    background: linear-gradient(to right bottom, rgba(255,198,166,1), rgba(255,232,115,0.2));
+.circle1,.circle2,.circle3{
+    background: linear-gradient(to right bottom, rgba(255,198,166,1), rgba(255, 232, 115, 0.712));
     height: 964px;
     width: 964px;
     border-radius: 50%;
-    position: absolute;
-
+    position: fixed;
+    filter: blur(250px);
 }
 
 .circle1{
@@ -38,6 +37,11 @@ main{
 }
 
 .circle2{
-    bottom: 5%;
-    left: 10%;
+    bottom: -20%;
+    left: 30%;
+}
+
+.circle3{
+    top: -5%;
+    left: -5%;
 }
