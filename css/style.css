@@ -15,7 +15,7 @@ main{
 .glass{
     background: white;
     min-height: 80vh;
-    width: 246px;
+    width: 60%;
     background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
     border-radius: 3rem;
 }
