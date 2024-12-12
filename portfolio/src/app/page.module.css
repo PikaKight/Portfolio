@@ -1,4 +1,5 @@
 .page {
+  
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -13,7 +14,7 @@
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-abel);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,8 @@
 }
 
 .menu{
+  color: black;
+
   margin: auto;
 
   padding: 2%;
@@ -67,4 +70,30 @@
   padding: 5%;
 
   text-align: center;
+}
+
+.button{
+  color: black;
+  margin: auto;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  text-align: center;
+
+  width: 50%;
+  height: 50%;
+}
+
+.button > button {
+  font-size: 25px;
+
+  background-color: #f2f2f200;
+
+  border: 0px;
+}
+
+.button > button:hover {
+  color: aqua;
+
 }
