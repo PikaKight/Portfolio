@@ -5,6 +5,9 @@ import Image from 'next/image';
 import logo from '@/../public/images/MTXX.jpg';
 
 import HomeBtnComponent from "./buttons/homeBtn";
+import AboutBtnComponent from "./buttons/aboutBtn";
+import ProjectBtnComponent from "./buttons/projectBtn";
+import ContactBtnComponent from "./buttons/contactBtn";
 
 const MenuComponent = () => {
 
@@ -26,6 +29,12 @@ const MenuComponent = () => {
             </div>
 
             <HomeBtnComponent/>
+
+            <AboutBtnComponent/>
+
+            <ProjectBtnComponent/>
+
+            <ContactBtnComponent/>
 
       </div>
         

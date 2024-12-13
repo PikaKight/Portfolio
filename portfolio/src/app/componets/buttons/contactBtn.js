@@ -1,19 +1,20 @@
 import styles from "../../page.module.css";
 
 
-const HomeBtnComponent = () => {
-    const showHome = () => {
+const ContactBtnComponent = () => {
+
+    const showContacts = () => {
 
     }
-    
+
     return (
         <div className={styles.button}>
             <button 
                 className={styles.button}
-                onClick={showHome()}
-            >Home</button>
+                onClick={showContacts()}
+            >Contact</button>
         </div>
     )
 }
 
-export default HomeBtnComponent;
+export default ContactBtnComponent;
