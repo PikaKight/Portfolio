@@ -1,16 +1,16 @@
 import styles from "../../page.module.css";
 
 
-const AboutBtnComponent = () => {
+const AboutBtnComponent = ({onClickBtn}) => {
     const showAbout = () => {
-
+        onClickBtn('about')
     }
     
     return (
         <div className={styles.button}>
             <button 
                 className={styles.button}
-                onClick={showAbout()}
+                onClick={showAbout}
             >About Me</button>
         </div>
     )

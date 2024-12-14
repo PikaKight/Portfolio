@@ -12,8 +12,12 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <MenuComponent/>
-      <ContentComponent/>
+      <MenuComponent
+        onClickMenu={setActivePage}
+      />
+      <ContentComponent
+        activePage={activePage}
+      />
     </div>
   );
 }

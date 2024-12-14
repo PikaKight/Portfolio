@@ -1,17 +1,17 @@
 import styles from "../../page.module.css";
 
 
-const ContactBtnComponent = () => {
+const ContactBtnComponent = ({onClickBtn}) => {
 
     const showContacts = () => {
-
+        onClickBtn('contact')
     }
 
     return (
         <div className={styles.button}>
             <button 
                 className={styles.button}
-                onClick={showContacts()}
+                onClick={showContacts}
             >Contact</button>
         </div>
     )

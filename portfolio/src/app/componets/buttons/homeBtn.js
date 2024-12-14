@@ -1,16 +1,16 @@
 import styles from "../../page.module.css";
 
 
-const HomeBtnComponent = () => {
+const HomeBtnComponent = ({onClickBtn}) => {
     const showHome = () => {
-
+        onClickBtn("home")
     }
     
     return (
         <div className={styles.button}>
             <button 
                 className={styles.button}
-                onClick={showHome()}
+                onClick={showHome}
             >Home</button>
         </div>
     )

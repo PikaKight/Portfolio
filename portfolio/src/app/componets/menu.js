@@ -9,7 +9,7 @@ import AboutBtnComponent from "./buttons/aboutBtn";
 import ProjectBtnComponent from "./buttons/projectBtn";
 import ContactBtnComponent from "./buttons/contactBtn";
 
-const MenuComponent = () => {
+const MenuComponent = ({onClickMenu}) => {
 
     return (
 
@@ -28,13 +28,21 @@ const MenuComponent = () => {
             <h3>Western University <br></br> Software Engineering Student</h3>
             </div>
 
-            <HomeBtnComponent/>
+            <HomeBtnComponent
+                onClickBtn={onClickMenu}
+            />
 
-            <AboutBtnComponent/>
+            <AboutBtnComponent
+                onClickBtn={onClickMenu}
+            />
 
-            <ProjectBtnComponent/>
+            <ProjectBtnComponent
+                onClickBtn={onClickMenu}
+            />
 
-            <ContactBtnComponent/>
+            <ContactBtnComponent
+                onClickBtn={onClickMenu}
+            />
 
       </div>
         
