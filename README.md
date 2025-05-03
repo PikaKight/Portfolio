@@ -26,4 +26,4 @@ The About Page will include:
 - About Me
 - Experiences
 - Hobbies
-- Skills
+- Skill

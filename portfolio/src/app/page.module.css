@@ -91,6 +91,8 @@
   background-color: #f2f2f200;
 
   border: 0px;
+  cursor: pointer;
+
 }
 
 .button > button:hover {
@@ -191,4 +193,77 @@
   width: 50%;
   height: 50%;
 
+}
+
+.BioBtnContainer{
+  margin: auto;
+
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+
+}
+
+.BioContainer{
+  margin: auto;
+
+  padding: 2%;
+
+  border-radius: 30px;
+  border: 1px solid white;
+
+  background: linear-gradient(15deg, #ffffff80 0%, #ffffff20 100%);
+}
+
+.BioContainer h1 {
+  font-size: 2.5rem;
+  margin: 1%;
+}
+
+.BioContainer p {
+  font-size: 1.1rem;
+  margin: 1%;
+}
+
+.SkillContainer {
+  margin: auto;
+  padding: 1rem;
+
+  display: flex;
+}
+
+.SkillNodeContainer{
+  margin: auto;
+  padding: auto;
+
+  display: block;
+
+  align-items: center;
+}
+
+.SkillNodeBtn{
+  margin: auto;
+  padding: auto;
+
+  width: 1.875rem;
+  height: 1.875rem;
+
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: 0.063rem black solid;
+
+  cursor: pointer;
+}
+
+.SkillNodeBtn:hover{
+
+  background-color: #b8b6b6;
+}
+
+.SkillName{
+
+  text-align: center;
+
+  font-size: 1.25rem;
+  color: #1a1a1a;
 }
