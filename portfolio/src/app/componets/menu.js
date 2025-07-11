@@ -25,7 +25,7 @@ const MenuComponent = ({onClickMenu}) => {
             <div className={styles.title}>
             <h2>Marcus Tuen Muk</h2>
                 <br></br>
-            <h3>Western University <br></br> Software Engineering Student</h3>
+            <h3>Enthusiastic Software Developer</h3>
             </div>
 
             <HomeBtnComponent

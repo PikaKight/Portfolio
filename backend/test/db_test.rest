@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8000/newSkill
+Content-Type: application/json
+
+{
+    "name": "Python",
+    "des": "Applied Python for machine learning, backend API development, and UI tools that control mechanical systems. Experienced with FastAPI, pandas, and model training."
+}
+
+###
+
+GET http://127.0.0.1:8000/allSkills
+
+###
+
+POST http://127.0.0.1:8000/updateSkill
+Content-Type: application/json
+
+{
+    "name": "Python",
+    "des": "Used for machine learning, backend API development, and UI tools that control mechanical systems. Experienced with FastAPI, pandas, and model training."
+}
