@@ -19,3 +19,13 @@ Content-Type: application/json
     "name": "Python",
     "des": "Used for machine learning, backend API development, and UI tools that control mechanical systems. Experienced with FastAPI, pandas, and model training."
 }
+
+###
+
+POST http://127.0.0.1:8000/deleteSkill
+Content-Type: application/json
+
+{
+    "name": "test",
+    "des": "test"
+}

@@ -78,3 +78,20 @@ def update_skill(skill: Skill):
             "msg": "Skill Could Not Be Updated",
             "error": str(e)
         }
+    
+@app.post("/deleteSkill")
+def delete_skill(skill: Skill):
+
+    if not skills_col.find_one({"name": skill.name}):
+        return {"msg": "Skill Does Not Exists"}
+    
+    try:
+        skills_col.delete_one({"name": skill.name})
+        return {"msg": "Skill Successfully Delete"}
+
+
+    except Exception as e:
+        return {
+            "msg": "Skill Could Not Be Deleted",
+            "error": str(e)
+        }
